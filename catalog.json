@@ -1,0 +1,180 @@
+{
+  "format": 1,
+  "name": "Gamehearth-Katalog",
+  "games": [
+    {
+      "id": "angelteich",
+      "name": "Angelteich",
+      "description": "Reihum angeln am Familienteich: Fische fangen, im Laden verkaufen, bessere Ruten kaufen und das Sammelbuch füllen",
+      "repository": "https://github.com/hearthbit/gamehearth-angelteich",
+      "versions": [
+        {
+          "version": "0.3.1",
+          "sdk": "^0.1.6",
+          "mode": "turn-based",
+          "players": {
+            "min": 1,
+            "max": 4
+          },
+          "roles": {
+            "player": {
+              "inputs": [
+                "touch",
+                "mouse",
+                "keyboard"
+              ],
+              "screen": "small"
+            }
+          },
+          "license": {
+            "code": "MIT",
+            "assets": "CC0-1.0"
+          },
+          "size": 385816,
+          "url": "https://github.com/hearthbit/gamehearth-angelteich/releases/download/v0.3.1/angelteich-0.3.1.zip",
+          "sha256": "b8bc85cb9322220a8e3a62693ce74a418c7ba00a86478fde6a4b0c7d416bfb59"
+        }
+      ]
+    },
+    {
+      "id": "farbfelder",
+      "name": "Farbfelder",
+      "description": "Lauf mit dem Handy übers Feld, färb Kästchen in deiner Farbe und kleckse; ist die Zeit um, gewinnt, wer die meisten hat",
+      "repository": "https://github.com/hearthbit/gamehearth-farbfelder",
+      "versions": [
+        {
+          "version": "0.5.1",
+          "sdk": "^0.1.6",
+          "mode": "realtime",
+          "players": {
+            "min": 2,
+            "max": 8
+          },
+          "roles": {
+            "screen": {
+              "inputs": [],
+              "screen": "large"
+            },
+            "controller": {
+              "inputs": [
+                "touch",
+                "keyboard"
+              ],
+              "screen": "small"
+            }
+          },
+          "license": {
+            "code": "MIT",
+            "assets": "CC0-1.0"
+          },
+          "size": 378941,
+          "url": "https://github.com/hearthbit/gamehearth-farbfelder/releases/download/v0.5.1/farbfelder-0.5.1.zip",
+          "sha256": "ca82d08d05aa93caaee44431d13409bdd4ad8db505ddd09bef7a77a2f4ef0f20"
+        }
+      ]
+    },
+    {
+      "id": "kritzelkiste",
+      "name": "Kritzelkiste",
+      "description": "Einer malt mit dem Finger einen Begriff, alle anderen raten auf dem Handy – wer schneller rät, bekommt mehr Punkte.",
+      "repository": "https://github.com/hearthbit/gamehearth-kritzelkiste",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "sdk": "^0.1.7",
+          "mode": "realtime",
+          "players": {
+            "min": 2,
+            "max": 10
+          },
+          "roles": {
+            "player": {
+              "inputs": [
+                "touch",
+                "keyboard"
+              ],
+              "screen": "small"
+            },
+            "screen": {
+              "inputs": [],
+              "screen": "large"
+            }
+          },
+          "license": {
+            "code": "MIT",
+            "assets": "CC0-1.0"
+          },
+          "size": 47728,
+          "url": "https://github.com/hearthbit/gamehearth-kritzelkiste/releases/download/v0.1.1/kritzelkiste-0.1.1.zip",
+          "sha256": "9af13503f3a5841c553ae7b6478491c943917541213a7934a2936b60b8dbd30c"
+        }
+      ]
+    },
+    {
+      "id": "mau-mau",
+      "name": "Mau-Mau",
+      "description": "Mau-Mau für 2–6 Spieler mit Siebenern, Achtern, Buben und Assen",
+      "repository": "https://github.com/hearthbit/gamehearth-mau-mau",
+      "versions": [
+        {
+          "version": "0.5.1",
+          "sdk": "^0.1.6",
+          "mode": "turn-based",
+          "players": {
+            "min": 2,
+            "max": 6
+          },
+          "roles": {
+            "player": {
+              "inputs": [
+                "touch",
+                "mouse"
+              ],
+              "screen": "small"
+            }
+          },
+          "license": {
+            "code": "MIT",
+            "assets": "CC0-1.0"
+          },
+          "size": 379519,
+          "url": "https://github.com/hearthbit/gamehearth-mau-mau/releases/download/v0.5.1/mau-mau-0.5.1.zip",
+          "sha256": "e5ba1b2d5ce5715d2d7d4e48b0c219b9cdf71438804da968a651550bfcd007d6"
+        }
+      ]
+    },
+    {
+      "id": "mauerbrecher",
+      "name": "Mauerbrecher",
+      "description": "Mit dem Schläger einen Ball gegen eine Mauer aus Steinen schießen und sie in 10 Leveln zerschlagen",
+      "repository": "https://github.com/hearthbit/gamehearth-mauerbrecher",
+      "versions": [
+        {
+          "version": "0.3.1",
+          "sdk": "^0.1.6",
+          "mode": "single",
+          "players": {
+            "min": 1,
+            "max": 1
+          },
+          "roles": {
+            "player": {
+              "inputs": [
+                "touch",
+                "keyboard"
+              ],
+              "screen": "small"
+            }
+          },
+          "license": {
+            "code": "MIT",
+            "assets": "CC0-1.0"
+          },
+          "size": 374664,
+          "url": "https://github.com/hearthbit/gamehearth-mauerbrecher/releases/download/v0.3.1/mauerbrecher-0.3.1.zip",
+          "sha256": "34d49ed3a94ac9dc06b25bcd39a975369752546d0841cac65e1090713715c7ff"
+        }
+      ]
+    }
+  ]
+}

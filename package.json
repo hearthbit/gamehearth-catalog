@@ -1,0 +1,19 @@
+{
+  "name": "gamehearth-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Catalog of Gamehearth games: only the index, no game code",
+  "license": "CC0-1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "gamehearth catalog check catalog.json --download",
+    "add": "gamehearth catalog add catalog.json"
+  },
+  "devDependencies": {
+    "@gamehearth/sdk": "^0.1.8",
+    "gamehearth": "^0.10.0"
+  }
+}
